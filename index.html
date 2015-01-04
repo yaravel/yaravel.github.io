@@ -11,6 +11,7 @@ published: true
       <div class="date">
         Publicado
         {{ post.date | date: "%B %e, %Y" }}
+        {{ post.tags | array_to_sentence_string }}
       </div>
       <div class="entry">
         {{ post.content | truncatewords:40}}
