@@ -9,9 +9,8 @@ published: true
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <div class="date">
-        Written on {{ page.date | date: "%B %e, %Y" }} <small>- {{ post.tag }}</small>
+        <small>- {{ post.tag }}</small>
       </div>
-      {% include disqus.html disqus_identifier=page.disqus_identifier %}
       <div class="entry">
         {{ post.content | truncatewords:40}}
       </div>
