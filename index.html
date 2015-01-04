@@ -11,7 +11,6 @@ published: true
       <div class="date">
         Publicado
         {{ post.date | date: "%B %e, %Y" }}
-        {% post.tags | split: "-" %}
       </div>
       <div class="entry">
         {{ post.content | truncatewords:40}}
