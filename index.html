@@ -11,6 +11,7 @@ published: true
       <div class="date">
         Written on {{ page.date | date: "%B %e, %Y" }} <small>- {{ post.tag }}</small>
       </div>
+      {% include disqus.html disqus_identifier=page.disqus_identifier %}
       <div class="entry">
         {{ post.content | truncatewords:40}}
       </div>
