@@ -9,7 +9,7 @@ published: true
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <div class="date">
-        <small>- {{ post.tag }}</small>
+        <small>{{ post.tag }}</small>
       </div>
       <div class="entry">
         {{ post.content | truncatewords:40}}
