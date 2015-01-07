@@ -1,6 +1,10 @@
 ---
-published: false
+layout: post
+title: mi nuevo post
+tags: [yaravel,loca,baja,hola]
 ---
+
+mucha paja loca
 
 ## A New Post
 
